@@ -1,0 +1,12 @@
+// Código de exemplo
+https://github.com/loiane/javascript-datastructures-algorithms/blob/main/src/js/datastructures/binary-search-tree.js
+
+https://github.com/amejiarosario/dsa.js-data-structures-algorithmsjavascript/blob/master/src/data-structures/trees/binary-tree-node.js
+
+https://github.com/loiane/javascript-datastructures-algorithms/tree/main/src/js/algorithms
+
+
+--> sort algorithms
+https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html
+https://www.toptal.com/developers/sorting-algorithms
+
