@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Este é o título da aba</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+<script>
+  var aba1 = {
+    titulo: 'Google',
+    url : 'https://www.google.com.br'
+  }
+
+  var aba2 = {
+    titulo: 'Amazon',
+    url: 'https://www.amazon.com.br/'
+  }
+
+  const abas = [aba1, aba2]
+
+  for (aba of abas) {
+    console.log(aba.titulo)
+    document.body.innerHTML = document.body.innerHTML + ' ' + `<li><a href="${aba.url}">${aba.titulo}</a></li>`
+  }
+</script>

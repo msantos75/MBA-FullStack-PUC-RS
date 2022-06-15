@@ -1,0 +1,33 @@
+<script>
+  // pilha/stack
+
+  class Stack {
+    constructor() {
+      this.posicao = 0
+      this.datalist = []
+    }
+    incluir(item) {
+      this.posicao = this.posicao + 1
+      this.datalist.push(item)
+    }
+    retornar(item) {
+      this.posicao = this.posicao - 1
+    }
+    print() {
+      console.log('Posição:', this.posicao)
+      console.log('Item:', this.datalist)
+    }
+  }
+
+  const history = new Stack()
+
+  history.incluir('https://google.com')  
+  history.incluir('https://youtube.com')  
+  history.incluir('https://facebook.com')  
+  history.print()
+  history.retornar()
+  history.print()
+
+  // developer.mozilla.org/pt-BR/docs/Web/API/History  
+  // MDN Web Docs
+</script>

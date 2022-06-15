@@ -1,0 +1,38 @@
+<script>
+  // fila//queue/array
+  var fila = [
+    'script.js',
+    'style.css',
+    'imagem.png'
+  ]
+  
+  // adiciona no final da fila
+  // fila.push('doguinho.jpg')
+  
+  // remove o primeiro da fila
+  // fila.shift()
+  
+  // criar filas
+  class Queue {
+    constructor() {
+      this.datalist = []
+    }
+    print() {
+      console.log(this.datalist)
+    }
+    enqueue(item) {
+      this.datalist.push(item)
+    }
+    dequeue(item) {
+      this.datalist.shift(item)
+    }  
+  }
+
+  var requests = new Queue()
+  requests.enqueue('script.js')
+  requests.enqueue('style.css')
+  requests.enqueue('imagem.png')
+  requests.enqueue('doguinho.jpg')
+  requests.print()
+
+</script>
